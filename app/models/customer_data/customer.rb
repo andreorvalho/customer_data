@@ -1,4 +1,5 @@
 module CustomerData
-  class Customer < ApplicationRecord
+  class Customer < CustomerDataRecord
+    self.table_name = "customers"
   end
 end
