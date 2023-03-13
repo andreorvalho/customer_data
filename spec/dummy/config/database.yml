@@ -13,7 +13,7 @@ development:
   primary:
     <<: *default
     database: db/development.sqlite3
-  payment_gateway:
+  customer_data:
     <<: *default
     database: db/customer_data.sqlite3
     migrations_paths: db/customer_data_migrate
@@ -25,7 +25,7 @@ test:
   primary:
     <<: *default
     database: db/test.sqlite3
-  payment_gateway:
+  customer_data:
     <<: *default
     database: db/customer_data_test.sqlite3
     migrations_paths: db/customer_data_migrate
@@ -34,7 +34,7 @@ production:
   primary:
     <<: *default
     database: db/production.sqlite3
-  payment_gateway:
+  customer_data:
     <<: *default
     database: db/customer_data_production.sqlite3
     migrations_paths: db/customer_data_migrate
