@@ -5,13 +5,13 @@ Gem::Specification.new do |spec|
   spec.version     = CustomerData::VERSION
   spec.authors     = ["andre.orvalho"]
   spec.email       = ["andre.orvalho@gmail.com"]
-  spec.homepage    = "https://github.com/andreorvalho"
+  spec.homepage    = "https://github.com/andreorvalho/customer_data"
   spec.summary     = "Summary of CustomerData."
   spec.description = "Description of CustomerData."
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/andreorvalho"
-  spec.metadata["changelog_uri"] = "https://github.com/andreorvalho"
+  spec.metadata["source_code_uri"] = "https://github.com/andreorvalho/customer_data"
+  spec.metadata["changelog_uri"] = "https://github.com/andreorvalho/customer_data"
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
